@@ -27,6 +27,5 @@ def get_status():
 while True:
     data = get_status()
     if data:
-        payload = json.dumps(data)
-        client.publish(topic, payload, qos=0, retain=True)
+        client.publish(topic, json.dumps(data), qos=0, retain=True)
     time.sleep(interval)

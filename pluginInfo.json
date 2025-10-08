@@ -1,22 +1,13 @@
 {
-  "name": "MQTTSystemStatus",
+  "name": "fpp-mqtt-system-status",
   "mainFile": "plugin_setup.php",
-  "version": "1.0.0",
-  "friendlyName": "LO14 - MQTT System Status",
-  "repoName": "fpp-mqtt-system-status",
+  "friendlyName": "MQTT System Status",
+  "description": "Publishes /api/system/status data to an MQTT broker.",
   "author": "David Baumwald",
+  "version": "1.0.0",
   "email": "",
-  "description": "Publishes FPP /api/system/status data to an MQTT broker.",
-  "homepage": "https://github.com/dream-encode/fpp-mqtt-system-status",
   "license": "MIT",
   "hasSettings": true,
   "hasUI": false,
-  "hasAPI": false,
-  "branches": {
-    "main": {
-      "version": "1.0.0",
-      "sha": "",
-      "date": ""
-    }
-  }
+  "hasAPI": false
 }
