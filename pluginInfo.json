@@ -1,0 +1,18 @@
+{
+    "repoName": "fpp-mqtt-system-status",
+    "name": "LO14 - MQTT System Status",
+    "author": "David Baumwald",
+    "description": "Publishes FPP /api/system/status data to an MQTT broker.",
+    "homeURL": "https://github.com/dream-encode/fpp-mqtt-system-status",
+    "srcURL": "https://github.com/dream-encode/fpp-mqtt-system-status.git",
+    "bugURL": "https://github.com/dream-encode/fpp-mqtt-system-status/issues",
+    "allowUpdates": 1,
+     "versions": [
+        {
+            "minFPPVersion": "1.0",
+            "maxFPPVersion": "0",
+            "branch": "main",
+            "sha": ""
+        }
+    ]
+}

@@ -1,8 +1,0 @@
-{
-  "name": "MQTTSystemStatus",
-  "author": "David Baumwald",
-  "version": "1.0.0",
-  "description": "Publishes FPP /api/system/status data to an MQTT broker.",
-  "homepage": "https://lightson14th.com",
-  "license": "MIT"
-}
